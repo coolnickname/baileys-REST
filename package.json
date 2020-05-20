@@ -1,0 +1,22 @@
+{
+  "name": "baileys-REST",
+  "version": "1.0.0",
+  "description": "A REST API interface to the Baileys whatsapp web API.",
+  "main": "server.js",
+  "dependencies": {
+    "baileys": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "baileys"
+  ],
+  "author": "cool_nick_name",
+  "homepage": "https://github.com/coolnickname/baileys-REST",
+  "license": "ISC"
+}
