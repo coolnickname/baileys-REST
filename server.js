@@ -87,7 +87,7 @@ app.get('/client/auth', function (req, res) {
         response.succes = false;
     }else{
         response.succes = true;
-        response.response] = client.base64EncodedAuthInfo();
+        response.response = client.base64EncodedAuthInfo();
     }
     
     res.send(response)
@@ -102,7 +102,7 @@ app.get('/ping', function (req, res) {
         response.succes = false;
     }else{
         response.succes = true;
-        response.response] = client.userMetaData;
+        response.response = client.userMetaData;
     }
     
     res.send(response)
